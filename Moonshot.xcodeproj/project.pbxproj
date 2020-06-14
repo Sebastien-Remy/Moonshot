@@ -13,6 +13,8 @@
 		9670304724966891007AB57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9670304624966891007AB57C /* Assets.xcassets */; };
 		9670304A24966891007AB57C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9670304924966891007AB57C /* Preview Assets.xcassets */; };
 		9670304D24966891007AB57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9670304B24966891007AB57C /* LaunchScreen.storyboard */; };
+		96703056249684F4007AB57C /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 96703054249684F4007AB57C /* astronauts.json */; };
+		96703057249684F4007AB57C /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 96703055249684F4007AB57C /* missions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9670304924966891007AB57C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9670304C24966891007AB57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9670304E24966891007AB57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96703054249684F4007AB57C /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		96703055249684F4007AB57C /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				9670304624966891007AB57C /* Assets.xcassets */,
 				9670304B24966891007AB57C /* LaunchScreen.storyboard */,
 				9670304E24966891007AB57C /* Info.plist */,
+				96703054249684F4007AB57C /* astronauts.json */,
+				96703055249684F4007AB57C /* missions.json */,
 				9670304824966891007AB57C /* Preview Content */,
 			);
 			path = Moonshot;
@@ -134,8 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9670304D24966891007AB57C /* LaunchScreen.storyboard in Resources */,
+				96703057249684F4007AB57C /* missions.json in Resources */,
 				9670304A24966891007AB57C /* Preview Assets.xcassets in Resources */,
 				9670304724966891007AB57C /* Assets.xcassets in Resources */,
+				96703056249684F4007AB57C /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
