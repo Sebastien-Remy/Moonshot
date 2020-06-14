@@ -10,13 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
-            GeometryReader { geo in
-                Image("armstrong")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: geo.size.width)
+        NavigationView {
+            List (0..<100) { row in
+                NavigationLink(destination: Text("Detail \(row)")) {
+                    Text("Row \(row)")
+                }
             }
+            .navigationBarTitle("SwiftUI")
         }
     }
 }
